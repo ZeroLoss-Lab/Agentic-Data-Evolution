@@ -1,0 +1,44 @@
+# Environments
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# OS / editor metadata (avoid leaking usernames or machine info)
+.DS_Store
+__MACOSX/
+.vscode/
+.idea/
+Thumbs.db
+
+# Local secrets — never commit real endpoints/keys
+.env
+
+# Data, models, logs, run artifacts (regenerate locally)
+*.log
+*.jsonl
+data/
+init/
+output/
+loop_output/
+eval_results/
+evaluations/
+checkpoint*/
+*.tar.gz
+
+# Small benchmark inputs included in the release.
+!data/
+!data/README.md
+!data/dev300/
+!data/dev300/example.jsonl
+!data/edubench/
+!data/edubench/example.jsonl
+!data/math500/
+!data/math500/example.jsonl
+!data/toxicn/
+!data/toxicn/example.jsonl

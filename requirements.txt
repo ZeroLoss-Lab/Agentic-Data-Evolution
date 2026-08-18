@@ -1,0 +1,7 @@
+openai
+httpx
+pydantic
+aiofiles
+tqdm
+nltk
+jieba
