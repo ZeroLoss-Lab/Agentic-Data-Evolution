@@ -147,13 +147,14 @@ DEV300 and EduBench use an LLM judge. MATH-500 and ToxiCN use deterministic scor
 If you use this repository, please cite:
 
 ```bibtex
-@misc{yu2026agentic,
-  title     = {Agentic Data Evolution},
-  author    = {Yu, Yang and Jiang, Yilin and Fei, Zexuan and Luo, Yiming and
-               Song, Xingkai and Huang, Kaiyi and Zhou, Aimin and Lin, Xin and
-               Tan, Fei},
-  year      = {2026},
-  url       = {https://github.com/ZeroLoss-Lab/Agentic-Data-Evolution}
+@misc{yu2026adeagenticdataevolution,
+  title         = {ADE: Agentic Data Evolution Framework for Human-Centered Objectives},
+  author        = {Yang Yu and Yilin Jiang and Zexuan Fei and Yiming Luo and Xingkai Song and Kaiyi Huang and Aimin Zhou and Xin Lin and Fei Tan},
+  year          = {2026},
+  eprint        = {2608.23719},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2608.23719}
 }
 ```
 
